@@ -137,7 +137,7 @@ if ( year <= 2000 && year <= 2020 && year != 2000 ) {
     console.log('estamos en la era actual')
 } else {
     console.log('estamos en la era post moderna')
-}
+}  
 
 // or //o ||
 
@@ -149,28 +149,16 @@ if ( year == 1999 || year == 2001 && year == 2021) {
 
 // condicional switch
 
-let edad2 = 25;
-let imprime = '';
+var numero = 10;
+var texto_2 = '';
 
-switch (edad) {
-    case 18: // Agrega un caso nuevo 
-        imprime = 'Acabas de cumplir la mayoria de edad';
-        break; // Finaliza el caso 
+switch (numero == 10) {
+    case numero == 10:
+        texto_2 = 'El numero es igual a 10'
+        break;
 
-    case 25: 
-        imprime = 'Ya eres un adulto';
-        break; // Finaliza el caso 
-    
-    case 40: 
-        imprime = 'Crisis de los 40';
-        break; // Finaliza el caso 
-    
-    case 75: 
-        imprime = 'ya eres un anciano';
-        break; // Finaliza el caso    
-
-    default: // Cuando no sucede nada de esto 
-        imprime = 'edad random'
+    default:
+        texto_2 = 'NaN'
         break;
 }
-console.log(imprime);
+console.log(texto_2);
