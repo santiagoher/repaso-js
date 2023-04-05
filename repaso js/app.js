@@ -161,4 +161,22 @@ switch (numero == 10) {
         texto_2 = 'NaN'
         break;
 }
+
 console.log(texto_2);
+
+// buble for  
+/*
+    El primer elemento del bucle for es un contador que suele llamarse i
+    EL segundo es la condicion en que caso va hacer iteracion el bucle
+    EL tercero es el incrementador del incrementador ++
+*/ 
+var numero = 100;
+
+for(var i = 1; i < numero; i++) {
+    console.log('Vamos por el numero ' + i);
+
+    debugger; // podemos ver que hace dentro del bucle 
+}
+
+// bucle while
+
