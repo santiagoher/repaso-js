@@ -175,8 +175,31 @@ var numero = 100;
 for(var i = 1; i < numero; i++) {
     console.log('Vamos por el numero ' + i);
 
-    debugger; // podemos ver que hace dentro del bucle 
+    //debugger; // podemos ver que hace dentro del bucle 
 }
 
 // bucle while
 
+/*
+    Es parecido al bucle for, es menos estricto que el for, yo puedo hacer bubles infinitos y es indefinidos
+    - va a constar de una condicion 
+    -cuando se cumpla esa condicion se va ejecutar un bloque de instrucciones infinitamente
+    - cuando no cumple la condicion se sale bucle 
+
+    */
+
+    var año = 2018;
+
+    while (año != 2000) {
+        // ejecuta eso 
+        console.log('Estamos en el año '+año)
+
+        año--;
+    }
+
+
+// bucle do while
+
+/*
+    primero ejecutamos un bloque de codigo y luego comprobamos una condicion para hacer denuevo ese bloque de codigo o simplemete ejecutarlo una sola vez
+*/ 
