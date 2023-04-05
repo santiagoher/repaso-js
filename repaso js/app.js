@@ -179,6 +179,7 @@ for(var i = 1; i < numero; i++) {
 }
 
 // bucle while
+// como parar un bucle con
 
 /*
     Es parecido al bucle for, es menos estricto que el for, yo puedo hacer bubles infinitos y es indefinidos
@@ -188,14 +189,18 @@ for(var i = 1; i < numero; i++) {
 
     */
 
-    var año = 2018;
+var año = 2050;
 
-    while (año != 2000) {
-        // ejecuta eso 
-        console.log('Estamos en el año '+año)
+while (año != 2000) {
+    // ejecuta eso 
+    console.log('Estamos en el año '+año)
 
-        año--;
-    }
+    if( año == 2023) {
+        break;
+    }  
+
+    año--;
+}
 
 
 // bucle do while
@@ -203,3 +208,26 @@ for(var i = 1; i < numero; i++) {
 /*
     primero ejecutamos un bloque de codigo y luego comprobamos una condicion para hacer denuevo ese bloque de codigo o simplemete ejecutarlo una sola vez
 */ 
+
+// var años = 29;
+
+// do {
+//     alert("SOLO CUANDO SEA DIFERENTE A 20");
+//     años--;
+// // las condiciones que va a evaluar
+// } while( años  > 25);
+ 
+// alertas 
+//alert('este es mi mensaje!!');
+//alert('mi texto!!');
+
+// alertas de confirmacion
+//var r = confirm("Estas seguro de querer continuar?")
+//console.log(r)
+
+//ventana de ingreso de informacion
+var edadd = prompt('¿que edad tienes?', 18);
+console.log(edadd);
+// ventanas confirmacion
+
+
