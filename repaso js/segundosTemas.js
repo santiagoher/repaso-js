@@ -100,7 +100,7 @@
 //     return "La pelicula es: " + nombreP;
 // }
 
-function sumame(numero1, numero2, sumaYmuestra, sumaPordos) {
+/* function sumame(numero1, numero2, sumaYmuestra, sumaPordos) {
     var sumar = numero1 + numero2;
     sumaYmuestra(sumar);
     sumaPordos(sumar);
@@ -109,3 +109,49 @@ function sumame(numero1, numero2, sumaYmuestra, sumaPordos) {
 
 sumame(2, 5, dato => {console.log("La suma es: ", dato);},
 dato => {console.log("La suma por dos es: ", dato);});
+
+ */
+
+// ambito de las varaibles
+/* function holaMundo(texto) {
+    var hola_mundo = "Texto dentro de funcion";
+
+
+    console.log(texto);
+    console.log(typeof numero.toString()); // un metodo es como una funcion pero aplicada a un objeto (convierte un dato en un script)
+    console.log(hola_mundo);
+}
+var numero = 12;
+var texto = "que paso mi crack";
+holaMundo(texto);  */
+/* holaMundo(hola_mundo); */ // nos va a dar un error porque la variable no esta definida en el ambito global del programa
+
+// metodos para procesar textos 
+// transformaciones de textos
+
+var numero = 27;
+var texto = 'Esto es un string';
+var texto_secundario = 'ESTO ES UN MUY BUEN CURSO';
+
+var numero_convertido_string = numero.toString(); // es una funcion que recibe como parametro la funcion (numero)
+var texto_mayusculas = texto.toUpperCase();
+var texto_minusculas = texto_secundario.toLowerCase();
+
+/* console.log(typeof numero_convertido_string); 
+console.log(texto_mayusculas);
+console.log(texto_minusculas); */
+
+// calcular la longitud de un texto
+
+var nombre = '';
+    nombre = ["Elemento1", "Elemento2"] // 2
+
+console.log(nombre.length);
+
+
+// concatenar - unir textos
+
+var texto_total = texto + texto_secundario;
+console.log(texto_total)
+
+
