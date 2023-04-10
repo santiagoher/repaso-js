@@ -158,7 +158,7 @@ console.log(texto_total)
 
 // funciones de remplazo
 
-var numero = 27;
+/* var numero = 27;
 var texto = 'Esto es un string Esto final santiago';
 var texto_secundario = 'ESTO ES UN MUY BUEN CURSO UN';
 
@@ -173,8 +173,10 @@ var busqueda_8 = texto.startsWith("string"); // nos da true o false si lo encuen
 var busqueda_9 = texto.endsWith("santiago") // nos da true o false si lo encuentra al inicio
 var busqueda_10 = texto.includes("santiago"); // La función includes() recibe un argumento y devuelve un valor booleano indicando si el argumento se encuentra en el array o no. Por ejemplo:
 var busqueda_11 = texto.replace("santiago", "pedroxd"); // remplaza el valor por el indicado 
-
 var busqueda_12 = texto.slice(0, 10); // separa un string apartir del caracter que yo quiero 
+var busqueda_12 = texto.split(); // lo agrega a un array
+var busqueda_13 = texto.split(""); // los separa por espacios
+var busqueda_14 = texto.trim(); // quita los espacios un caso para guardar contraseñas por delante y por detras
 
 console.log(busqueda_1);
 console.log(busqueda_2);
@@ -187,7 +189,24 @@ console.log(busqueda_9);
 console.log(busqueda_10);
 console.log(busqueda_11);
 console.log(busqueda_12);
+console.log(busqueda_13);
+console.log(busqueda_14); 
 
+ */
+
+// platillas de texto javascript
+
+var nombre = prompt("Ingresa tu nombre");
+var apellido = prompt("Ingresa tu apellido");
+
+/* var nombre_completo = "Mi nombre completo es: "+nombre+""+apellido; */
+
+var texto = `
+    <h1>hola como vamos </h1>
+    <h3>mi nombre es: ${nombre}</h3>
+    <h3>mi apellido es: ${apellido}</h3>
+`
+document.write(texto);
 
 
 
