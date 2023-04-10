@@ -129,7 +129,7 @@ holaMundo(texto);  */
 // metodos para procesar textos 
 // transformaciones de textos
 
-var numero = 27;
+/* var numero = 27;
 var texto = 'Esto es un string';
 var texto_secundario = 'ESTO ES UN MUY BUEN CURSO';
 
@@ -143,7 +143,7 @@ console.log(texto_minusculas); */
 
 // calcular la longitud de un texto
 
-var nombre = '';
+/* var nombre = '';
     nombre = ["Elemento1", "Elemento2"] // 2
 
 console.log(nombre.length);
@@ -153,5 +153,36 @@ console.log(nombre.length);
 
 var texto_total = texto + texto_secundario;
 console.log(texto_total)
+ */
+
+var numero = 27;
+var texto = 'Esto es un string Esto final santiago';
+var texto_secundario = 'ESTO ES UN MUY BUEN CURSO UN';
+
+var busqueda_1 = texto.indexOf("Esto"); // lo busca y nos muestra su ubicacion atraves del indice
+var busqueda_2 = texto.lastIndexOf("Esto"); // muestra el ultimo indice
+var busqueda_3 = texto.search("Esto"); // lo busca y nos muestra su ubicacion atraves del indice
+var busqueda_4 = texto.match("Esto"); // lo devuelve en array y en el indice 0
+var busqueda_5 = texto.match(/Esto/g); // expresion regular, hace una busqueda global 
+var busqueda_6 = texto.substr(0, 4); // dependiendo del primer valor y ultimo nos da el string o el valor que queramos extraer de un texto
+var busqueda_7 = texto.charAt(2); // dependiendo del primer valor y ultimo nos da el string o el valor que queramos extraer de un texto
+var busqueda_8 = texto.startsWith("string"); // nos da true o false si lo encuentra al final 
+var busqueda_9 = texto.endsWith("santiago") // nos da true o false si lo encuentra al inicio
+var busqueda_10 = texto.includes("santiago"); // 
+
+
+console.log(busqueda_1);
+console.log(busqueda_2);
+console.log(busqueda_4);
+console.log(busqueda_5);
+console.log(busqueda_6);
+console.log(busqueda_7);
+console.log(busqueda_8);
+console.log(busqueda_9);
+console.log(busqueda_10);
+
+// funciones de remplazo
+
+
 
 
