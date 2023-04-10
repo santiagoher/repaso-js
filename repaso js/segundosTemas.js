@@ -155,6 +155,9 @@ var texto_total = texto + texto_secundario;
 console.log(texto_total)
  */
 
+
+// funciones de remplazo
+
 var numero = 27;
 var texto = 'Esto es un string Esto final santiago';
 var texto_secundario = 'ESTO ES UN MUY BUEN CURSO UN';
@@ -168,8 +171,10 @@ var busqueda_6 = texto.substr(0, 4); // dependiendo del primer valor y ultimo no
 var busqueda_7 = texto.charAt(2); // dependiendo del primer valor y ultimo nos da el string o el valor que queramos extraer de un texto
 var busqueda_8 = texto.startsWith("string"); // nos da true o false si lo encuentra al final 
 var busqueda_9 = texto.endsWith("santiago") // nos da true o false si lo encuentra al inicio
-var busqueda_10 = texto.includes("santiago"); // 
+var busqueda_10 = texto.includes("santiago"); // La función includes() recibe un argumento y devuelve un valor booleano indicando si el argumento se encuentra en el array o no. Por ejemplo:
+var busqueda_11 = texto.replace("santiago", "pedroxd"); // remplaza el valor por el indicado 
 
+var busqueda_12 = texto.slice(0, 10); // separa un string apartir del caracter que yo quiero 
 
 console.log(busqueda_1);
 console.log(busqueda_2);
@@ -180,8 +185,8 @@ console.log(busqueda_7);
 console.log(busqueda_8);
 console.log(busqueda_9);
 console.log(busqueda_10);
-
-// funciones de remplazo
+console.log(busqueda_11);
+console.log(busqueda_12);
 
 
 
