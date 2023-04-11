@@ -6,5 +6,19 @@
     3. Ordenarlo y mostrarlo
     4. invertir su orden y mostrarlo
     5. mostrar cuantos elementos tiene el array
-    6. busqueda de un valor introducido por el usuario, y que nos diga si esta y nos diga su 
+    6. busqueda de un valor introducido por el usuario, y que nos diga si esta y nos diga si lo ecuentra y su indice
 */
+
+var numero = new Array();
+for (let i = 0; i <= 5 ; i++) {
+    numero[i] = parseInt(prompt('Inserte un numero'));
+} 
+
+numero.reverse(function(a, b){
+    return a - b;
+});
+
+
+
+console.log(numero);
+console.log(numero.length);
