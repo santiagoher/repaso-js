@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 
 /*
     1. Pida 6 numeros en pantalla y los meta a un array
@@ -10,15 +10,17 @@
 */
 
 var numero = new Array();
-for (let i = 0; i <= 5 ; i++) {
-    numero[i] = parseInt(prompt('Inserte un numero'));
-} 
-
-numero.reverse(function(a, b){
-    return a - b;
+for (let i = 0; i <= 5; i++) {
+  numero[i] = parseInt(prompt("Inserte un numero"));
+}
+console.log(numero);
+numero.sort();
+numero.reverse(function (a, b) {
+  return a - b;
 });
-
-
-
 console.log(numero);
 console.log(numero.length);
+
+if (condition) {
+} else {
+}
